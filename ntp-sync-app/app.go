@@ -39,7 +39,6 @@ var (
 		"europe.pool.ntp.org",
 		"north-america.pool.ntp.org",
 		"asia.pool.ntp.org",
-		"192.168.0.100",
 	}
 	autoSyncTicker *time.Ticker
 	autoSyncQuit   chan struct{}
