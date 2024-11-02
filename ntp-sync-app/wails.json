@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "ntp-sync-app",
+  "outputfilename": "ntp-sync-app",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "frontend:bridge": "wailsbridge",
+  "author": {
+    "name": "Valentin",
+    "email": "swiftvel@outlook.com"
+  },
+  "platforms": {
+    "windows": {
+      "manifest": "app.manifest"
+    }
+  }
+}
